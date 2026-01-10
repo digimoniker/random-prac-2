@@ -1,0 +1,9 @@
+name: Scalar List
+on: workflow_dispatch
+
+jobs:
+  only_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List Scalars
+        run: echo "\n\n\nStrings, Numbers, Booleans, Date & Time, Null, Binary\n\n\n"
