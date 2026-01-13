@@ -1,0 +1,12 @@
+name: Literal Block
+on: workflow_dispatch
+
+jobs:
+  LiteralJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Literal List
+        run: |
+          echo "This is the first line"
+          echo "This is the second line"
+          echo "This is the third line"
