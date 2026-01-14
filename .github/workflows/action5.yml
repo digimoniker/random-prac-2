@@ -1,0 +1,14 @@
+name: Timestamp
+on: workflow_dispatch
+
+jobs:
+  TimestampJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: TimestampStep1
+        run: |
+          echo "THE TIME WILL BE"
+          echo "LISTED BELOW:"
+
+      - name: TimestampStep2
+        run: YYYY:MM:DD
