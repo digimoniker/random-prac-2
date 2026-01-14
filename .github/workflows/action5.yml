@@ -11,4 +11,4 @@ jobs:
           echo "LISTED BELOW:"
 
       - name: TimestampStep2
-        run: YYYY:MM:DD
+        run: 2030:01:20
