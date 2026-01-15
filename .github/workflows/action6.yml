@@ -1,0 +1,14 @@
+name: Explicit Typing
+on: workflow_dispatch
+
+jobs:
+  Explicit_Typing_Job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: List vars
+        run: |
+          myString="HELLOWORLD"
+          myNumber=30
+
+          echo "$myString"
+          echo "$myNumber"
